@@ -8,10 +8,10 @@ SourceList.D={
 	date : "2018/12/09"
 };
 
-RaceList["chultan half-troll"] = {
+RaceList["tabaxi-gnome"] = {
 	regExpSearch : /^((?=.*tabaxi)(?=.*gnome)).*$/i,
 	name : "Tabaxi-gnome",
-	source : ["CHF:BJ", 1],
+	source : ["TG:BJ", 1],
 	plural : "Tabaxi-gnomes",
 	sortname : "Tabaxi-gnome",
 	size : 2,
