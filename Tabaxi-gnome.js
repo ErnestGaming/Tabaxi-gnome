@@ -34,7 +34,6 @@ RaceList["chultan half-troll"] = {
 		"feline agility" : {
 			name : "Feline Agility",
 			usages : 1,
-			minlevel : 1,
 		},
 	}
 };
