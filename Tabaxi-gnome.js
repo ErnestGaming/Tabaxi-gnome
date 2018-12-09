@@ -28,8 +28,6 @@ RaceList["tabaxi-gnome"] = {
 	improvements : "Chultan Half-Troll: +2 Dexterity, +1 Wisdom;",
 	scores : [0, 2, 0, 1, 0, 0],
 	trait : "Tabaxi-gnome (+2 Dexterity, +1 Intelligence)" + (typePF ? "\n" : " ") + "Cat's Talent: You have proficiency in the Perception and Stealth skills.\nCat's Claws: Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.\nFeline Agility: Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.\nGnome Cunning. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
-	eval : "tDoc.getField('Carrying Capacity Multiplier').value *= 1/2;",
-	removeeval : "tDoc.getField('Carrying Capacity Multiplier').value /= 1/2;",
 	features : {
 		"feline agility" : {
 			name : "Feline Agility",
