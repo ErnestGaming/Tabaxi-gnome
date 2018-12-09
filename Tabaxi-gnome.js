@@ -1,7 +1,7 @@
 var iFileName = "Tabaxi-gnome.js";
 RequiredSheetVersion(12.999);
 
-SourceList.D={
+SourceList.[TG:BJ]={
 	name : "Tabaxi-gnome",
 	abbreviation : "TG:BJ",
 	group : "Homebrew",
@@ -11,7 +11,7 @@ SourceList.D={
 RaceList["tabaxi-gnome"] = {
 	regExpSearch : /^((?=.*tabaxi)(?=.*gnome)).*$/i,
 	name : "Tabaxi-gnome",
-	source : ["TG:BJ", 1],
+	source : ["TG:BJ", 0],
 	plural : "Tabaxi-gnomes",
 	sortname : "Tabaxi-gnome",
 	size : 2,
